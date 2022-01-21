@@ -8,3 +8,115 @@ ul{
     list-style: none;
     padding: 0;
 }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.contenthead{
+    border: solid;
+    flex: 3;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.social{
+    border: solid;
+    flex: 1; 
+    text-align: center;
+}
+
+.social > i{
+    padding: .45rem
+}
+
+.about{
+    border: none;
+    background-color: white;
+}
+
+
+/* content*/
+
+.contentwrap{
+    display: flex;
+    width: 1680px;
+}
+
+.content{
+    width: 900px;
+}
+
+.content1{
+    margin: 20px;  
+}
+
+.content2{
+    margin: 20px;
+}
+
+.content3{
+    margin: 20px;
+}
+
+.content4{
+    margin: 20px;
+}
+
+.content5{
+    margin: 20px;
+}
+
+.post{
+    width: 400px;
+}
+
+.bio{
+    flex-wrap: wrap;
+}
+
+.popular{
+    flex-wrap: wrap;
+}
+
+.latest{
+    flex-wrap: wrap;
+}
+
+.insta{
+    flex-wrap: wrap;
+}
+.insta > a{
+   margin: 7px;
+}
+
+
+
+
+
+
+
+.botImg{
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 75px;
+    border: solid 2px orange;
+}
+
+footer > i{
+    color:rgb(245, 11, 11);
+    border: solid 3px white
+}
+
+
