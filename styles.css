@@ -2,6 +2,9 @@
     box-sizing: border-box; 
     overflow-wrap: break-word; 
     word-break: break-all;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    font-family: sans-serif;
 }
 
 ul{
@@ -20,14 +23,12 @@ ul{
 }
 
 .contenthead{
-    border: solid;
     flex: 3;
     justify-content: space-between;
     text-align: center;
 }
 
 .social{
-    border: solid;
     flex: 1; 
     text-align: center;
 }
@@ -38,7 +39,6 @@ ul{
 
 .about{
     border: none;
-    background-color: white;
 }
 
 
@@ -50,56 +50,48 @@ ul{
 }
 
 .content{
-    width: 900px;
+    width: 876px;
+    margin: 20px;
+    text-align: center;
 }
 
 .content1{
-    margin: 20px;  
+    border: solid 1px rgb(182, 181, 181);
 }
 
-.content2{
-    margin: 20px;
+.content1 > button{
+    width: 202px;
+    height: 44px;
+    background-color: rgb(109, 24, 24);
+    color: white;
+    margin-bottom: 47px;
 }
 
-.content3{
-    margin: 20px;
+.content1 > section{
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
-.content4{
-    margin: 20px;
+.content1 > h2{
+    padding: 0px;
 }
 
-.content5{
-    margin: 20px;
+
+.content1 > p{
+    font-size: 16px;
+    margin: 36px 48px 48px 48px;
 }
+
+.content1 > div{
+    font-style: italic;
+}
+
+
 
 .post{
-    width: 400px;
+    width: 422px;
+    text-align: right;
 }
-
-.bio{
-    flex-wrap: wrap;
-}
-
-.popular{
-    flex-wrap: wrap;
-}
-
-.latest{
-    flex-wrap: wrap;
-}
-
-.insta{
-    flex-wrap: wrap;
-}
-.insta > a{
-   margin: 7px;
-}
-
-
-
-
-
 
 
 .botImg{
