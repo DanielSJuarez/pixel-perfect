@@ -227,11 +227,75 @@ ul{
     text-align: right;
 }
 
-.insta{
+.popular{
+    height: 1162px;
     border: solid 1px rgb(182, 181, 181);
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.popular > h3{
+    margin: 44px 0px 24px 0px;
+    font-size: 22px;
+}
+
+.popular > p{
+    text-align: left;
+    width: 350px;
+    margin-left: 35px;
+}
+
+.popular > img{
+    margin-top: 7px;
+}
+
+.popdate{
+    font-style: italic;
+    padding-bottom: 25px;
+    border-bottom: solid 1px rgb(182, 181, 181);
+}
+
+.latest{
+    height: 600px;
+    border: solid 1px rgb(182, 181, 181);
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.lastest > h3{
+    margin: 39px 0px 27px 0px;
+    font-size: 22px;
+}
+.latepic{
+    width: 150px;
+}
+.lateabout{
+    width: 215px;
 }
 
 
+.date{
+    font-style: italic;
+}
+
+.insta{
+    border: solid 1px rgb(182, 181, 181);
+    text-align: center;
+    height: 694px;
+}
+
+.insta > img{
+    margin: 5px 5px 5px 5px;
+    padding: 0px;
+}
+
+.insta > h3{
+    margin: 39px 0px 27px 0px;
+    font-size: 22px;
+}
+
+
+/*bottom*/
 .botImg{
     display: flex;
 }
