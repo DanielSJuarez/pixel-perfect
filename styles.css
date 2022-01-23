@@ -20,25 +20,36 @@ ul{
 .header{
     display: flex;
     align-items: center;
+    border-bottom: solid 1px rgb(182, 181, 181);
+    height: 56px;
+    background-color: rgb(41, 40, 40);
 }
 
 .contenthead{
-    flex: 3;
     justify-content: space-between;
     text-align: center;
+    margin-left: 170px;
+    margin-bottom: 17px;
 }
 
 .social{
-    flex: 1; 
     text-align: center;
+    margin-left: 750px;
+    margin-bottom: 17px;
 }
 
 .social > i{
     padding: .45rem
 }
 
+
+
 .about{
     border: none;
+    font-size: 12px;
+    padding-top: 0px;
+    letter-spacing: 1.5px;
+    margin-right: 15.5px;
 }
 
 
@@ -58,6 +69,7 @@ ul{
 .content1{
     border: solid 1px rgb(182, 181, 181);
     margin-bottom: 58px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content1 > button{
@@ -85,6 +97,7 @@ ul{
 .content2{
     border: solid 1px rgb(182, 181, 181);
     margin-bottom: 58px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content2 > button{
@@ -112,6 +125,7 @@ ul{
 .content3{
     border: solid 1px rgb(182, 181, 181);
     margin-bottom: 58px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content3 > button{
@@ -139,6 +153,7 @@ ul{
 .content4{
     border: solid 1px rgb(182, 181, 181);
     margin-bottom: 58px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content4 > button{
@@ -166,6 +181,7 @@ ul{
 .content5{
     border: solid 1px rgb(182, 181, 181);
     margin-bottom: 58px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content5 > button{
@@ -218,9 +234,6 @@ ul{
     width: 256px;
     padding: 28px 0px 56px 0px;
 }
-
-/*sidebar content*/
-
 
 .post{
     width: 420px;
@@ -359,8 +372,6 @@ ul{
     font-size: 22px;
 }
 
-
-/*bottom*/
 .botImg{
     display: flex;
     margin: 0px;
