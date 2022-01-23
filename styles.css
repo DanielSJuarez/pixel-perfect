@@ -51,7 +51,7 @@ ul{
 
 .content{
     width: 876px;
-    margin: 60px 36px 92px 175px;
+    margin: 60px 34px 92px 175px;
     text-align: center;
 }
 
@@ -223,8 +223,59 @@ ul{
 
 
 .post{
-    width: 422px;
+    width: 420px;
     text-align: right;
+}
+
+.bio{
+    text-align: center;
+    height: 594px;
+    border: solid 1px rgb(182, 181, 181);
+    margin: 60px 0px 45px 0px;
+}
+
+.profile{
+    border-radius: 50%;
+    border: solid 8px rgb(109, 24, 24);
+    position: absolute;
+    right: 274px;
+    top: 222px;
+}
+
+.bio h3{
+    margin: 132px 0px 25px 0px;
+    font-size: 22px;
+}
+
+.bio p{
+    line-height: 32px;
+    text-align: center;
+    width: 330px;
+    margin: 0px 0px 26px 47px;
+}
+
+.bio > i{
+    border: solid 1px rgb(182, 181, 181);
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0px 4px 0px 4px;
+}
+
+.bio i:first-of-type{
+    padding: 8px 11px 8px 11px; 
+}
+
+.bio i:nth-of-type(3){
+    padding: 8px 7px 8px 7px;
+}
+
+.bio i:nth-of-type(4){
+    padding: 8px 9px 8px 9px;
+}
+
+.bio i:last-of-type{
+    padding: 8px 9px 8px 9px;
+    margin-right: 24px;
 }
 
 .popular{
@@ -234,7 +285,7 @@ ul{
     text-align: center;
 }
 
-.popular > h3{
+.popular h3{
     margin: 44px 0px 24px 0px;
     font-size: 22px;
 }
@@ -262,15 +313,29 @@ ul{
     text-align: center;
 }
 
-.lastest > h3{
+.latest h3{
     margin: 39px 0px 27px 0px;
     font-size: 22px;
 }
+
+.lateart{
+    display:flex;
+    width: 350px;
+    height: 108px;
+    margin: 18px 36px 0px 33px;
+    border-bottom: solid 1px rgb(182, 181, 181);
+    text-align: left;
+}
+
+.lateart:last-of-type{
+    border:none;
+}
+
 .latepic{
     width: 150px;
 }
 .lateabout{
-    width: 215px;
+    width: 200px;
 }
 
 
@@ -289,7 +354,7 @@ ul{
     padding: 0px;
 }
 
-.insta > h3{
+.insta h3{
     margin: 39px 0px 27px 0px;
     font-size: 22px;
 }
@@ -298,6 +363,7 @@ ul{
 /*bottom*/
 .botImg{
     display: flex;
+    margin: 0px;
 }
 
 footer{
@@ -305,12 +371,14 @@ footer{
     color: white;
     background-color: black;
     height: 75px;
-    border: solid 2px orange;
+    padding: 30px 0px 30px 0px;
 }
 
 footer > i{
-    color:rgb(245, 11, 11);
-    border: solid 3px white
+    color:white;
+    background-color: rgb(109, 24, 24);
+    height: 44px;
+    width: 44px;
 }
 
 
