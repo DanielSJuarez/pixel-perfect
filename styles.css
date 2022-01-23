@@ -52,9 +52,6 @@ ul{
     margin-right: 15.5px;
 }
 
-
-/* content*/
-
 .contentwrap{
     display: flex;
     width: 1680px;
@@ -72,7 +69,7 @@ ul{
     background-color: rgb(41, 40, 40);
 }
 
-.content1 > button{
+.content1 button{
     width: 200px;
     height: 44px;
     background-color: rgb(109, 24, 24);
@@ -100,7 +97,7 @@ ul{
     background-color: rgb(41, 40, 40);
 }
 
-.content2 > button{
+.content2 button{
     width: 200px;
     height: 44px;
     background-color: rgb(109, 24, 24);
@@ -128,7 +125,7 @@ ul{
     background-color: rgb(41, 40, 40);
 }
 
-.content3 > button{
+.content3 button{
     width: 200px;
     height: 44px;
     background-color: rgb(109, 24, 24);
@@ -156,7 +153,7 @@ ul{
     background-color: rgb(41, 40, 40);
 }
 
-.content4 > button{
+.content4 button{
     width: 200px;
     height: 44px;
     background-color: rgb(109, 24, 24);
@@ -184,7 +181,7 @@ ul{
     background-color: rgb(41, 40, 40);
 }
 
-.content5 > button{
+.content5 button{
     width: 200px;
     height: 44px;
     background-color: rgb(109, 24, 24);
@@ -395,5 +392,68 @@ footer > i{
     right: 34px;
     padding-top: 14px;
     top: 0;
+}
+
+.read:hover{
+    background-color: white;
+    color:rgb(109, 24, 24);
+    border-color: rgb(109, 24, 24);
+    border-width: 2px;
+}
+
+.about:hover{
+    background-color: rgb(182, 181, 181);
+    color: rgb(41, 40, 40);
+}
+
+.about i:hover{
+    background-color: rgb(182, 181, 181);
+    color: rgb(109, 24, 24);
+}
+
+.social > i:hover{
+    border: solid 1px rgb(182, 181, 181);
+    border-radius: 50%;
+}
+
+.social i:first-of-type{
+    padding: 7px 11px 7px 11px; 
+}
+
+.social i:nth-of-type(3){
+    padding: 7px 8px 7px 8px;
+}
+
+.social i:nth-of-type(4){
+    padding: 7px;
+}
+
+.social i:last-of-type{
+    padding: 8px 9px 8px 9px;
+    margin-right: 24px;
+}
+
+.social i:last-of-type:hover{
+    background-color: rgb(182, 181, 181);
+    color: rgb(41, 40, 40);
+}
+
+.icons > i:hover{
+    color:rgb(109, 24, 24)
+}
+
+.bio > i:hover{
+    background-color: rgb(182, 181, 181);
+    color: rgb(41, 40, 40);
+}
+
+footer i:hover{
+    background-color: rgb(182, 181, 181);
+    color: rgb(109, 24, 24);
+    border:solid 2px rgb(109, 24, 24);
+}
+
+img:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
