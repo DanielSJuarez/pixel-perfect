@@ -15,6 +15,7 @@ ul{
 .wrapper{
     display: flex;
     flex-direction: column;
+    margin-bottom: 0px;
 }
 
 .header{
@@ -34,12 +35,12 @@ ul{
 
 .social{
     text-align: center;
-    margin-left: 750px;
+    margin-left: 748px;
     margin-bottom: 17px;
 }
 
 .social > i{
-    padding: .45rem
+    padding: .44rem
 }
 
 
@@ -59,13 +60,13 @@ ul{
 
 .content{
     width: 876px;
-    margin: 60px 34px 92px 175px;
+    margin: 58px 33px 92px 175px;
     text-align: center;
 }
 
 .content1{
     border: solid 1px rgb(182, 181, 181);
-    margin-bottom: 58px;
+    margin-bottom: 55px;
     background-color: rgb(41, 40, 40);
 }
 
@@ -74,26 +75,28 @@ ul{
     height: 44px;
     background-color: rgb(109, 24, 24);
     color: white;
-    margin-bottom: 47px;
+    margin:24px 0px 47px 0px;
     border: solid 1px rgb(182, 181, 181);
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .content1 > section{
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 55px 0px 0px 0px;
+    padding: 51px 0px 0px 0px;
 }
 
 .content1 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 36px 48px 48px 48px;
-    line-height: 32px;
+    margin: 27px 48px 48px 45px;
+    line-height: 29px;
 }
 
 .content2{
     border: solid 1px rgb(182, 181, 181);
-    margin-bottom: 58px;
+    margin-bottom: 55px;
     background-color: rgb(41, 40, 40);
 }
 
@@ -102,26 +105,28 @@ ul{
     height: 44px;
     background-color: rgb(109, 24, 24);
     color: white;
-    margin-bottom: 47px;
+    margin:24px 0px 48px 0px;
     border: solid 1px rgb(182, 181, 181);
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .content2 > section{
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 55px 0px 0px 0px;
+    padding: 51px 0px 0px 0px;
 }
 
 .content2 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 36px 48px 48px 48px;
-    line-height: 32px;
+    margin: 28px 48px 48px 45px;
+    line-height: 29px;
 }
 
 .content3{
     border: solid 1px rgb(182, 181, 181);
-    margin-bottom: 58px;
+    margin-bottom: 55px;
     background-color: rgb(41, 40, 40);
 }
 
@@ -130,26 +135,28 @@ ul{
     height: 44px;
     background-color: rgb(109, 24, 24);
     color: white;
-    margin-bottom: 47px;
+    margin:24px 0px 47px 0px;
     border: solid 1px rgb(182, 181, 181);
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .content3 > section{
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 55px 0px 0px 0px;
+    padding: 51px 0px 1px 0px;
 }
 
 .content3 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 36px 48px 48px 48px;
-    line-height: 32px;
+    margin: 27px 48px 48px 45px;
+    line-height: 29px;
 }
 
 .content4{
     border: solid 1px rgb(182, 181, 181);
-    margin-bottom: 58px;
+    margin-bottom: 55px;
     background-color: rgb(41, 40, 40);
 }
 
@@ -158,26 +165,27 @@ ul{
     height: 44px;
     background-color: rgb(109, 24, 24);
     color: white;
-    margin-bottom: 47px;
+    margin:24px 0px 47px 0px;
     border: solid 1px rgb(182, 181, 181);
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .content4 > section{
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 55px 0px 0px 0px;
+    padding: 51px 0px 1px 0px;
 }
 
 .content4 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 36px 48px 48px 48px;
-    line-height: 32px;
+    margin: 27px 48px 48px 45px;
+    line-height: 29px;
 }
 
 .content5{
     border: solid 1px rgb(182, 181, 181);
-    margin-bottom: 58px;
     background-color: rgb(41, 40, 40);
 }
 
@@ -186,26 +194,30 @@ ul{
     height: 44px;
     background-color: rgb(109, 24, 24);
     color: white;
-    margin-bottom: 47px;
+    margin:24px 0px 47px 0px;
     border: solid 1px rgb(182, 181, 181);
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .content5 > section{
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 55px 0px 0px 0px;
+    padding: 51px 0px 0px 0px;
 }
 
 .content5 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 36px 48px 48px 48px;
-    line-height: 32px;
+    margin: 28px 48px 48px 45px;
+    line-height: 29px;
 }
 
 .mainhead{
     padding: 0px;
     letter-spacing: 1px;
+    /*transform: scale(1, 1.5);
+    font-size: 20px;*/
 }
 
 
@@ -214,6 +226,7 @@ ul{
     justify-content: space-between;
     border-top: solid 1px rgb(182, 181, 181);
     width: 780px;
+    height: 98px;
     margin-left: 48px;
 
 }
@@ -222,57 +235,58 @@ ul{
     font-style: italic;
     text-align: left;
     width: 268px;
-    padding: 27px 0px 61px 0px;
+    padding: 22px 0px 61px 0px;
 }
 
 .icons{
     letter-spacing: 9px;
     text-align: right;
     width: 256px;
-    padding: 28px 0px 56px 0px;
+    padding: 26px 0px 50px 0px;
 }
 
 .post{
-    width: 420px;
+    width: 421px;
     text-align: right;
 }
 
 .bio{
     text-align: center;
-    height: 594px;
+    height: 593px;
     border: solid 1px rgb(182, 181, 181);
-    margin: 60px 0px 45px 0px;
+    margin: 58px 0px 45px 0px;
 }
 
 .profile{
     border-radius: 50%;
-    border: solid 8px rgb(109, 24, 24);
+    border: solid 7px rgb(109, 24, 24);
     position: absolute;
-    right: 274px;
-    top: 222px;
+    right: 279px;
+    top: 245px;
 }
 
 .bio h3{
-    margin: 132px 0px 25px 0px;
-    font-size: 22px;
+    margin: 129px 0px 25px 0px;
+    font-size: 20px;
 }
 
 .bio p{
-    line-height: 32px;
+    line-height: 29px;
     text-align: center;
-    width: 330px;
-    margin: 0px 0px 26px 47px;
+    width: 310px;
+    margin: 0px 0px 26px 54px;
 }
 
 .bio > i{
     border: solid 1px rgb(182, 181, 181);
     border-radius: 50%;
     padding: 8px;
-    margin: 0px 4px 0px 4px;
+    margin: 1px 4px 0px 4px;
 }
 
 .bio i:first-of-type{
     padding: 8px 11px 8px 11px; 
+    margin-left: 12px;
 }
 
 .bio i:nth-of-type(3){
@@ -281,6 +295,7 @@ ul{
 
 .bio i:nth-of-type(4){
     padding: 8px 9px 8px 9px;
+    margin-left: 1px;
 }
 
 .bio i:last-of-type{
@@ -289,15 +304,15 @@ ul{
 }
 
 .popular{
-    height: 1162px;
+    height: 1145px;
     border: solid 1px rgb(182, 181, 181);
     margin-bottom: 45px;
     text-align: center;
 }
 
 .popular h3{
-    margin: 44px 0px 24px 0px;
-    font-size: 22px;
+    margin: 40px 0px 24px 0px;
+    font-size: 20px;
 }
 
 .popular > p{
@@ -310,9 +325,13 @@ ul{
     margin-top: 7px;
 }
 
+.secpop{
+    margin-top: 15px;
+}
+
 .popdate{
     font-style: italic;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     border-bottom: solid 1px rgb(182, 181, 181);
 }
 
@@ -324,7 +343,7 @@ ul{
 }
 
 .latest h3{
-    margin: 39px 0px 27px 0px;
+    margin: 39px 0px 32px 0px;
     font-size: 22px;
 }
 
@@ -332,25 +351,45 @@ ul{
     display:flex;
     width: 350px;
     height: 108px;
-    margin: 18px 36px 0px 33px;
+    margin: 15px 35px 0px 33px;
     border-bottom: solid 1px rgb(182, 181, 181);
     text-align: left;
 }
 
+.lateart:nth-of-type(3){
+    margin-top: 18px;
+}
+
 .lateart:last-of-type{
-    border:none;
+    border: none;
+    margin-top: 20px;
 }
 
 .latepic{
-    width: 150px;
+    width: 140px;
 }
+
+.latepic:nth-of-type(3){
+    padding-top: 2px;
+}
+
 .lateabout{
     width: 200px;
 }
 
+.subtitle:nth-of-type(3){
+    margin-top: 10px;
+}
+
+.subtitle{
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
 
 .date{
     font-style: italic;
+    margin-top: 10px;
 }
 
 .insta{
@@ -365,7 +404,7 @@ ul{
 }
 
 .insta h3{
-    margin: 39px 0px 27px 0px;
+    margin: 40px 0px 27px 0px;
     font-size: 22px;
 }
 
@@ -378,7 +417,7 @@ footer{
     text-align: center;
     color: white;
     background-color: black;
-    height: 75px;
+    height:75px;
     padding: 30px 0px 30px 0px;
     position: relative;
 }
@@ -389,8 +428,8 @@ footer > i{
     height: 44px;
     width: 44px;
     position: absolute;
-    right: 34px;
-    padding-top: 14px;
+    right: 33px;
+    padding-top: 15px;
     top: 0;
 }
 
@@ -417,20 +456,29 @@ footer > i{
 }
 
 .social i:first-of-type{
-    padding: 7px 11px 7px 11px; 
+    padding: 6px 10px 6px 10px; 
+    width: 32px
+}
+
+.social i:nth-of-type(2){
+    padding: 6px 7px 6px 7px;
 }
 
 .social i:nth-of-type(3){
-    padding: 7px 8px 7px 8px;
+    padding: 6px 8px 6px 8px;
 }
 
 .social i:nth-of-type(4){
-    padding: 7px;
+    padding: 6px 7px 6px 7px;
+}
+
+.social i:nth-of-type(5){
+    padding: 6px 5px 6px 5px;
 }
 
 .social i:last-of-type{
-    padding: 8px 9px 8px 9px;
-    margin-right: 24px;
+    padding: 6px 7px 6px 7px;
+    margin-right: 28px;
 }
 
 .social i:last-of-type:hover{
@@ -457,3 +505,4 @@ img:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+/
