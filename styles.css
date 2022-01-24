@@ -2,7 +2,7 @@
     box-sizing: border-box; 
     overflow-wrap: break-word; 
     word-break: break-all;
-    background-color: rgb(41, 40, 40);
+    background-color: rgb(78, 78, 78);
     color: white;
     font-family: Lato;
 }
@@ -22,7 +22,7 @@ ul{
     display: flex;
     align-items: center;
     border-bottom: solid 1px rgb(182, 181, 181);
-    height: 56px;
+    height: 73px;
     background-color: rgb(41, 40, 40);
 }
 
@@ -30,20 +30,21 @@ ul{
     justify-content: space-between;
     text-align: center;
     margin-left: 170px;
-    margin-bottom: 17px;
+    margin-bottom: 4px;
+    background-color: rgb(41, 40, 40);
 }
 
 .social{
     text-align: center;
     margin-left: 748px;
-    margin-bottom: 17px;
+    margin-bottom: 4px;
+    background-color: rgb(41, 40, 40);
 }
 
 .social > i{
-    padding: .44rem
+    padding: .44rem;
+    background-color: rgb(41, 40, 40);
 }
-
-
 
 .about{
     border: none;
@@ -51,6 +52,11 @@ ul{
     padding-top: 0px;
     letter-spacing: 1.5px;
     margin-right: 15.5px;
+    background-color: rgb(41, 40, 40);
+}
+
+.about i{
+    background-color: rgb(41, 40, 40);
 }
 
 .contentwrap{
@@ -60,13 +66,13 @@ ul{
 
 .content{
     width: 876px;
-    margin: 58px 33px 92px 175px;
+    margin: 40px 33px 92px 175px;
     text-align: center;
 }
 
 .content1{
     border: solid 1px rgb(182, 181, 181);
-    margin-bottom: 55px;
+    margin-bottom: 57px;
     background-color: rgb(41, 40, 40);
 }
 
@@ -84,14 +90,17 @@ ul{
 .content1 > section{
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 51px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+    margin-bottom: 5px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content1 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 27px 48px 48px 45px;
+    margin: 32px 48px 47px 45px;
     line-height: 29px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content2{
@@ -114,14 +123,16 @@ ul{
 .content2 > section{
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 51px 0px 0px 0px;
+    padding: 48px 0px 1px 0px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content2 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 28px 48px 48px 45px;
+    margin: 32px 48px 48px 45px;
     line-height: 29px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content3{
@@ -144,19 +155,21 @@ ul{
 .content3 > section{
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 51px 0px 1px 0px;
+    padding: 50px 0px 1px 0px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content3 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 27px 48px 48px 45px;
+    margin: 31px 48px 48px 45px;
     line-height: 29px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content4{
     border: solid 1px rgb(182, 181, 181);
-    margin-bottom: 55px;
+    margin-bottom: 57px;
     background-color: rgb(41, 40, 40);
 }
 
@@ -174,14 +187,16 @@ ul{
 .content4 > section{
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 51px 0px 1px 0px;
+    padding: 52px 0px 1px 0px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content4 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 27px 48px 48px 45px;
+    margin: 30px 48px 48px 45px;
     line-height: 29px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content5{
@@ -204,20 +219,24 @@ ul{
     font-size: 12px;
     letter-spacing: 1px;
     padding: 51px 0px 0px 0px;
+    background-color: rgb(41, 40, 40);
 }
 
 .content5 > p{
     font-size: 16px;
     padding: 0px;
-    margin: 28px 48px 48px 45px;
+    margin: 32px 48px 48px 45px;
     line-height: 29px;
+    background-color: rgb(41, 40, 40);
 }
 
 .mainhead{
     padding: 0px;
     letter-spacing: 1px;
-    /*transform: scale(1, 1.5);
-    font-size: 20px;*/
+    transform: scale(1, 1.5);
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: rgb(41, 40, 40);
 }
 
 
@@ -228,6 +247,7 @@ ul{
     width: 780px;
     height: 98px;
     margin-left: 48px;
+    background-color: rgb(41, 40, 40);
 
 }
 
@@ -236,6 +256,11 @@ ul{
     text-align: left;
     width: 268px;
     padding: 22px 0px 61px 0px;
+    background-color: rgb(41, 40, 40);
+}
+
+.author section{
+    background-color: rgb(41, 40, 40);
 }
 
 .icons{
@@ -243,6 +268,11 @@ ul{
     text-align: right;
     width: 256px;
     padding: 26px 0px 50px 0px;
+    background-color: rgb(41, 40, 40);
+}
+
+.icons > i{
+    background-color: rgb(41, 40, 40);
 }
 
 .post{
@@ -254,7 +284,8 @@ ul{
     text-align: center;
     height: 593px;
     border: solid 1px rgb(182, 181, 181);
-    margin: 58px 0px 45px 0px;
+    margin: 40px 0px 45px 0px;
+    background-color: rgb(41, 40, 40);
 }
 
 .profile{
@@ -263,11 +294,15 @@ ul{
     position: absolute;
     right: 279px;
     top: 245px;
+    background-color: rgb(41, 40, 40);
 }
 
 .bio h3{
-    margin: 129px 0px 25px 0px;
-    font-size: 20px;
+    margin: 132px 0px 28px 0px;
+    background-color: rgb(41, 40, 40);
+    transform: scale(1, 1.5);
+    letter-spacing: .75px;
+    font-size: 15px;
 }
 
 .bio p{
@@ -275,6 +310,7 @@ ul{
     text-align: center;
     width: 310px;
     margin: 0px 0px 26px 54px;
+    background-color: rgb(41, 40, 40);
 }
 
 .bio > i{
@@ -282,6 +318,7 @@ ul{
     border-radius: 50%;
     padding: 8px;
     margin: 1px 4px 0px 4px;
+    background-color: rgb(41, 40, 40);
 }
 
 .bio i:first-of-type{
@@ -308,17 +345,23 @@ ul{
     border: solid 1px rgb(182, 181, 181);
     margin-bottom: 45px;
     text-align: center;
+    background-color: rgb(41, 40, 40);
 }
 
 .popular h3{
-    margin: 40px 0px 24px 0px;
+    margin: 44px 0px 28px 0px;
     font-size: 20px;
+    background-color: rgb(41, 40, 40);
+    transform: scale(1, 1.5);
+    letter-spacing: .75px;
+    font-size: 15px;
 }
 
 .popular > p{
     text-align: left;
     width: 350px;
-    margin-left: 35px;
+    margin-left: 35px; 
+    background-color: rgb(41, 40, 40);
 }
 
 .popular > img{
@@ -326,13 +369,31 @@ ul{
 }
 
 .secpop{
-    margin-top: 15px;
+    margin-top: 18px;
+    background-color: rgb(41, 40, 40);
+    font-weight: 700;
+    transform: scale(1, 1.5);
+    letter-spacing: .75px;
+    font-size: 12px;
+}
+
+.sub{
+    font-weight: 700;
+    transform: scale(1, 1.5);
+    letter-spacing: .75px;
+    font-size: 12px;
+    margin-top: 18px;
 }
 
 .popdate{
     font-style: italic;
-    padding-bottom: 20px;
+    padding-bottom: 21px;
     border-bottom: solid 1px rgb(182, 181, 181);
+    background-color: rgb(41, 40, 40);
+}
+
+.bottompop em{
+    background-color: rgb(41, 40, 40);
 }
 
 .latest{
@@ -340,11 +401,15 @@ ul{
     border: solid 1px rgb(182, 181, 181);
     margin-bottom: 45px;
     text-align: center;
+    background-color: rgb(41, 40, 40);
 }
 
 .latest h3{
-    margin: 39px 0px 32px 0px;
-    font-size: 22px;
+    margin: 45px 0px 35px 0px;
+    font-size: 15px;
+    background-color: rgb(41, 40, 40);
+    transform: scale(1, 1.5);
+    letter-spacing: .75px;
 }
 
 .lateart{
@@ -354,48 +419,55 @@ ul{
     margin: 15px 35px 0px 33px;
     border-bottom: solid 1px rgb(182, 181, 181);
     text-align: left;
+    background-color: rgb(41, 40, 40);
 }
 
 .lateart:nth-of-type(3){
-    margin-top: 18px;
+    margin-top: 22px;
 }
 
 .lateart:last-of-type{
     border: none;
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .latepic{
     width: 140px;
+    background-color: rgb(41, 40, 40);
 }
 
-.latepic:nth-of-type(3){
-    padding-top: 2px;
-}
+
 
 .lateabout{
     width: 200px;
+    background-color: rgb(41, 40, 40);
 }
 
-.subtitle:nth-of-type(3){
-    margin-top: 10px;
+.subtitle:last-of-type{
+    margin-top: 0px;
 }
 
 .subtitle{
-    font-weight: bold;
-    margin-top: 3px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 8px;
     margin-bottom: 0px;
+    background-color: rgb(41, 40, 40);
+    transform: scale(1, 1.5);
+    letter-spacing: .75px;
 }
 
 .date{
     font-style: italic;
-    margin-top: 10px;
+    margin-top: 12px;
+    background-color: rgb(41, 40, 40);
 }
 
 .insta{
     border: solid 1px rgb(182, 181, 181);
     text-align: center;
     height: 694px;
+    background-color: rgb(41, 40, 40);
 }
 
 .insta > img{
@@ -404,8 +476,11 @@ ul{
 }
 
 .insta h3{
-    margin: 40px 0px 27px 0px;
-    font-size: 22px;
+    margin: 45px 0px 30px 0px;
+    font-size: 15px;
+    background-color: rgb(41, 40, 40);
+    transform: scale(1, 1.5);
+    letter-spacing: .75px;
 }
 
 .botImg{
@@ -505,4 +580,3 @@ img:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-/
