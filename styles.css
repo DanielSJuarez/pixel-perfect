@@ -423,12 +423,12 @@ ul{
 }
 
 .lateart:nth-of-type(3){
-    margin-top: 22px;
+    margin-top: 17px;
 }
 
 .lateart:last-of-type{
     border: none;
-    margin-top: 22px;
+    margin-top: 17px;
 }
 
 .latepic{
@@ -437,20 +437,15 @@ ul{
 }
 
 
-
 .lateabout{
     width: 200px;
     background-color: rgb(41, 40, 40);
 }
 
-.subtitle:last-of-type{
-    margin-top: 0px;
-}
-
 .subtitle{
     font-weight: 700;
     font-size: 12px;
-    margin-top: 8px;
+    margin-top: 6px;
     margin-bottom: 0px;
     background-color: rgb(41, 40, 40);
     transform: scale(1, 1.5);
