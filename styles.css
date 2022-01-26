@@ -27,6 +27,10 @@ ul{
     background-color: rgb(41, 40, 40);
 }
 
+.fa-chevron-down{
+    padding-left: 1px;
+}
+
 .contenthead{
     justify-content: space-between;
     text-align: center;
@@ -302,8 +306,8 @@ ul{
     border-radius: 50%;
     border: solid 7px rgb(109, 24, 24);
     position: absolute;
-    right: 102;
-    top: 116;
+    right: 102px;
+    top: 116px;
     background-color: rgb(41, 40, 40);
 }
 
@@ -598,4 +602,5 @@ img:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     cursor: pointer;
 }
+
 
