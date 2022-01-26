@@ -4,7 +4,8 @@
     word-break: break-all;
     background-color: rgb(78, 78, 78);
     color: white;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
+    cursor: default;
 }
 
 ul{
@@ -42,7 +43,6 @@ ul{
 }
 
 .social > i{
-    padding: .44rem;
     background-color: rgb(41, 40, 40);
 }
 
@@ -237,6 +237,7 @@ ul{
     font-size: 20px;
     margin-top: 20px;
     background-color: rgb(41, 40, 40);
+    word-spacing: 4px;
 }
 
 
@@ -273,6 +274,14 @@ ul{
 
 .icons > i{
     background-color: rgb(41, 40, 40);
+    font-size: 18px;
+    width: 27px;
+}
+
+.icons > i:last-of-type{
+    background-color: rgb(41, 40, 40);
+    font-size: 18px;
+    width: 16px;
 }
 
 .post{
@@ -286,14 +295,15 @@ ul{
     border: solid 1px rgb(182, 181, 181);
     margin: 40px 0px 45px 0px;
     background-color: rgb(41, 40, 40);
+    position: relative;
 }
 
 .profile{
     border-radius: 50%;
     border: solid 7px rgb(109, 24, 24);
     position: absolute;
-    right: 279px;
-    top: 245px;
+    right: 102;
+    top: 116;
     background-color: rgb(41, 40, 40);
 }
 
@@ -301,8 +311,9 @@ ul{
     margin: 132px 0px 28px 0px;
     background-color: rgb(41, 40, 40);
     transform: scale(1, 1.5);
-    letter-spacing: .75px;
     font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 .bio p{
@@ -353,8 +364,9 @@ ul{
     font-size: 20px;
     background-color: rgb(41, 40, 40);
     transform: scale(1, 1.5);
-    letter-spacing: .75px;
     font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 .popular > p{
@@ -409,7 +421,8 @@ ul{
     font-size: 15px;
     background-color: rgb(41, 40, 40);
     transform: scale(1, 1.5);
-    letter-spacing: .75px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 .lateart{
@@ -475,7 +488,8 @@ ul{
     font-size: 15px;
     background-color: rgb(41, 40, 40);
     transform: scale(1, 1.5);
-    letter-spacing: .75px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 .botImg{
@@ -492,7 +506,7 @@ footer{
     position: relative;
 }
 
-footer > i{
+.foot{
     color:white;
     background-color: rgb(109, 24, 24);
     height: 44px;
@@ -501,6 +515,7 @@ footer > i{
     right: 33px;
     padding-top: 15px;
     top: 0;
+    text-decoration: none;
 }
 
 .read:hover{
@@ -508,21 +523,25 @@ footer > i{
     color:rgb(109, 24, 24);
     border-color: rgb(109, 24, 24);
     border-width: 2px;
+    cursor: pointer;
 }
 
 .about:hover{
     background-color: rgb(182, 181, 181);
     color: rgb(41, 40, 40);
+    cursor: pointer;
 }
 
 .about i:hover{
     background-color: rgb(182, 181, 181);
     color: rgb(109, 24, 24);
+    cursor: pointer;
 }
 
 .social > i:hover{
     border: solid 1px rgb(182, 181, 181);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .social i:first-of-type{
@@ -554,24 +573,29 @@ footer > i{
 .social i:last-of-type:hover{
     background-color: rgb(182, 181, 181);
     color: rgb(41, 40, 40);
+    cursor: pointer;
 }
 
 .icons > i:hover{
-    color:rgb(109, 24, 24)
+    color:rgb(109, 24, 24);
+    cursor: pointer;
 }
 
 .bio > i:hover{
     background-color: rgb(182, 181, 181);
     color: rgb(41, 40, 40);
+    cursor: pointer;
 }
 
-footer i:hover{
+.foot:hover{
     background-color: rgb(182, 181, 181);
     color: rgb(109, 24, 24);
     border:solid 2px rgb(109, 24, 24);
+    cursor: pointer;
 }
 
 img:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    cursor: pointer;
 }
 
